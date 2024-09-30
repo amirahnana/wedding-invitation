@@ -1,1 +1,2 @@
-[View Wedding Invitation Resources](./awep-weds-latest/)
+[View the Wedding Invitation Website](./awep-weds-latest/mainpage.html)
+
