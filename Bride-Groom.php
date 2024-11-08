@@ -499,7 +499,7 @@ document.addEventListener('click', function(event) {
         }
 
         function copyRSVPLink() {
-            const link = "https://amirahnana/wedding-invitation";
+            const link = "https://amirahnana.github.io/wedding-invitation/";
             navigator.clipboard.writeText(link).then(() => {
                 showPopup();
             }).catch(err => {
@@ -518,8 +518,8 @@ document.addEventListener('click', function(event) {
         <button onclick="toggleShareOptions()" class="share-button">Share RSVP</button>  
     <!-- Share options next to share button -->
         <div id="shareOptions" class="share-options">
-            <a href="https://wa.me/?text=You're%20invited%20to%20Remy%20and%20Melati's%20wedding!%20RSVP%20here:%20https://amirahnana/wedding-invitation" target="_blank">WhatsApp</a>
-            <a href="mailto:?subject=Wedding RSVP&body=Please RSVP to our wedding at https://amirahnana/wedding-invitation">Email</a>
+            <a href="https://wa.me/?text=You're%20invited%20to%20Remy%20and%20Melati's%20wedding!%20RSVP%20here:%20https://amirahnana.github.io/wedding-invitation/" target="_blank">WhatsApp</a>
+            <a href="mailto:?subject=Wedding RSVP&body=Please RSVP to our wedding at https://amirahnana.github.io/wedding-invitation/">Email</a>
             <a href="#" onclick="copyRSVPLink()">Copy link</a>
         </div>
     </div>
